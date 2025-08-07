@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Platformer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>Mario Platformer</h1>
+            <div class="game-stats">
+                <span>Score: <span id="score">0</span></span>
+                <span>Lives: <span id="lives">3</span></span>
+            </div>
+        </div>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <div class="game-controls">
+            <p>Use <strong>Arrow Keys</strong> to move and <strong>Space</strong> to jump!</p>
+            <button id="restartBtn">Restart Game</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
